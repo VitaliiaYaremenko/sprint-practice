@@ -70,12 +70,19 @@ a {
 /* SECTION OFFER */
 .offer {
     padding-top: 50px;
+    margin-bottom: 120px;
 }
 .offer__container {
     justify-content: space-between;
+    background: url(../images/offer_section/background_offer_2.svg);
+    background-repeat: no-repeat;
+    background-position: right;
 }
 .offer-content {
     width: 648px;
+    background-image: url(../images/offer_section/background_offer_1.svg);
+    background-repeat: no-repeat;
+    background-position: top;
 }
 
 .offer__title {
@@ -96,6 +103,209 @@ a {
     border: none;
     cursor: pointer;
     margin-bottom: 80px;
+}
+.offer__list-box {
+    position: relative;
+}
+
+.offer-item {
+    position: absolute;
+    border: 2px solid #19191C;
+    padding: 16px 36px;
+    font-weight: 600;
+    line-height: 28px;
+}
+.offer__item-Illustrator {
+    bottom: 10%;
+    left: -120px;
+}
+
+.offer__item-Figma {
+    bottom: 40%;
+    left: -140px;
+}
+.offer__item-Photoshop {
+    bottom: 70%;
+    left: 50px;
+}
+.offer__item-Miro {
+    bottom: 90%;
+    left: 50px;
+}
+.offer__item-ProtoPie {
+    bottom: 95%;
+    left: 40%;
+}
+.offer__item-InVision {
+    bottom: 85%;
+    right: 15%;
+}
+.offer__list-img {
+    background-image: url(../images/offer_section/background-behind-girl-with-laptop.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+.offer__sale {
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 70px;
+}
+.offer__time {
+    font-weight: 700;
+}
+.offer-content__months {
+    font-weight: 700;
+    padding-bottom: 1px;
+    border-bottom: 4px solid #504DEE;
+    margin-bottom: 25px;
+}
+/*advantages__designer*/
+.advantages__designer{
+    margin-bottom: 120px;
+}
+.advantages__content {
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.advantages__designer-content {
+    width: 588px;
+}
+.advantages__title {
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 70px;
+    margin-bottom: 10px;
+}
+.advantages__info {
+    line-height: 28px;
+}
+
+.base-title {
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 70px;
+}
+.base-border {
+    padding-bottom: 15px;
+    border-bottom: 4px solid #19191C;
+    margin-bottom: 10px;
+}
+.base-info {
+    color: #6D6D77;
+    line-height: 28px;
+}
+.education__menu {
+    justify-content: center;
+   gap: 15px;
+}
+.base__info-width {
+    width: 368px;
+}
+
+.education__title {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 41px;
+    padding-bottom: 15px;
+    border-bottom: 4px solid #19191C;
+    margin-bottom: 10px;
+}
+.education__info {
+    line-height: 28px;
+}
+.education__card {
+    padding: 45px;
+}
+.bg-grin {
+    background-color: #DEEFE4;
+}
+.bg-yellow {
+    background-color: #F3F3D7;
+}
+.bg-pink {
+    background-color: #EFDEEE;
+}
+/*about__prices*/
+.about__prices {
+    margin-bottom: 120px;
+}
+.about__prices-container {
+    justify-content: space-between;
+}
+.prices__title {
+    width: 400px;
+    margin-bottom: 30px;
+}
+
+.proposition {
+    flex-direction: column;
+    padding: 45px;
+    background-color: #DEEFE4;
+}
+.proposition__title {
+    margin-bottom: 30px;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 41px;
+}
+.proposition__item {
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 120px;
+}
+.old__price {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #6D6D77;
+}
+.price-btn {
+    cursor: pointer;
+    padding: 16px 36px;
+    background-color: #19191C;
+    color: #FBFBFC;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26px;
+}
+.new__price {
+    margin-bottom: 10px;
+}
+.proposition__list {
+    padding-left: 20px;
+    position: relative;
+}
+.proposition__list::before {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    top: 9px;
+    left: 0;
+    background-color: #19191C;
+}
+.base-style::before {
+    content: '';
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    top: 9px;
+    left: 0;
+    background-color:#FBFBFC ;
+}
+.proposition-white {
+    color:#FBFBFC;
+}
+.white::before {
+    color:#FBFBFC;
+}
+.btn-white {
+    background-color:#FBFBFC ;
+    border: none;
+    color: #504DEE;
+}
+.bg-blue {
+    background-color: #504DEE;
 }
 
 /* FOOTER */
