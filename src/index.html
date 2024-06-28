@@ -9,43 +9,47 @@
 <body>
 <header class="header">
     <div class="container">
-        <div class="header__container">
-            <div class="header__logo">
-                <a href="index.html">
-                    <img src="./images/logo/logo.svg" alt="UpDate">
-                    UpDate
-                </a>
+        <div class="header__container d-flex">
+            <div class="header__box d-flex">
+                <div class="header__logo d-flex">
+                    <a class="header__logo-link" href="index.html">
+                        <img class="header__logo-img" src="./images/logo/logo.svg" alt="UpDate">
+                        UpDate
+                    </a>
+                </div>
+                <nav class="header__nav d-flex">
+                    <ul class="header__list d-flex">
+                        <li class="header__item">
+                            <a href="#">Courses</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#">Teachers</a>
+                        </li>
+                        <li class="header__item">
+                            <a href="#">Blog</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-            <nav class="header__nav">
-                <ul class="header__list">
-                    <li class="header__item">
-                        <a href="#">Courses</a>
-                    </li>
-                    <li class="header__item">
-                        <a href="#">Teachers</a>
-                    </li>
-                    <li class="header__item">
-                        <a href="#">Blog</a>
-                    </li>
-                </ul>
-                <a href="#">en</a>
-                <a href="#">Sign In</a>
-                <button type="button">Trial free</button>
-            </nav>
+            <div class="header__box-button d-flex">
+                <a class="header__box-link" href="#">En</a>
+                <a class="header__box-link" href="#">Sign In</a>
+                <button  class="header__box-btn" type="button">Trial free</button>
+            </div>
         </div>
     </div>
 </header>
 <main>
     <section class="offer">
         <div class="container">
-            <div class="offer__container">
+            <div class="offer__container d-flex">
                 <div class="offer-content">
                     <a href="#">6 months</a>
                     <p>profession:</p>
                     <h1 class="offer__title">UI/UX designer </h1>
                     <p class="offer__description">You will learn how to create a brand identity on the web and for printing. Learn how to work in Illustrator, Photoshop, InDesign and Figma.
                         Add posters, logos, merch design and other strong projects to your portfolio. Start a career in the studio or freelance.</p>
-                    <button class="button" type="button">Started</button>
+                    <button class="offer__button" type="button">Started</button>
                     <p class="offer__sale">25%</p>
                     <p class="offer__time"><time>17 Days 17:44:16</time></p>
                 </div>
@@ -57,7 +61,8 @@
                     <li class="offer__item">ProtoPie</li>
                     <li class="offer__item">InVision</li>
                 </ul>
-                <img src="./images/offer_section/business-finance-employment.png" alt="gir-with-laptop-offers-choice-of-programs">
+                <img src="./images/offer_section/business-finance-employment.png" alt="gir-with-laptop-offers-choice-of-programs" width="831"
+                height="751">
             </div>
         </div>
     </section>
@@ -159,14 +164,14 @@
 </main>
 <footer class="footer">
     <div class="container">
-        <div class="footer__container">
-            <div class="footer__address">
-                <a href="index.html">
-                    <img src="./images/logo/logo.svg" alt="UpDate">
+        <div class="footer__container d-flex">
+            <div class="footer__address d-flex">
+                <a class="footer__logo" href="index.html">
+                    <img src="./images/logo/footer-logo.svg" alt="UpDate">
                     UpDate
                 </a>
-                <a  href="mailto:support@update.com">support@update.com</a>
-                <a href="tel:+12136771024">+1 (213) 677 10 24</a>
+                <a class="footer__link-email" href="mailto:support@update.com">support@update.com</a>
+                <a class="footer__link-number" href="tel:+12136771024">+1 (213) 677 10 24</a>
             </div>
             <div class="sitemap">
                 <h6 class="sitemap__title">Courses</h6>
@@ -202,10 +207,10 @@
                     <li class="sitemap__item"><a href="#">Russian</a></li>
                 </ul>
             </div>
-            <div class="copyright">
-                <p><a href="#">Policy privacy</a></p>
-                <p>Copyright 2022. All rights reserved</p>
-            </div>
+        </div>
+        <div class="copyright d-flex">
+            <p><a href="#">Policy privacy</a></p>
+            <p>Copyright 2022. All rights reserved</p>
         </div>
     </div>
 </footer>

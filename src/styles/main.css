@@ -1,0 +1,152 @@
+body {
+    font: 400 18px/28px Inter, sans-serif;
+    color: #19191C;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+}
+.container {
+    width: 1440px;
+    margin: 0 auto;
+}
+.d-flex {
+    display: flex;
+}
+
+
+.header {
+    background-color: #EFEFF2;
+}
+.offer {
+    background-color: #EFEFF2;
+}
+
+
+.header__container {
+    padding: 36px 0 0;
+    justify-content: space-between;
+}
+.header__box {
+    align-items: center;
+    gap: 68px
+}
+.header__logo {
+    font-size: 24px;
+    font-weight: 800;
+    align-items: center;
+}
+.header__logo-img {
+    margin-right: 15px;
+}
+.header__nav {
+}
+.header__list {
+    gap: 48px;
+    font-weight: 600;
+    line-height: 22px;
+    font-size: 18px;
+}
+.header__box-button {
+    align-items: center;
+    gap: 48px;
+}
+.header__box-link {
+    font-weight: 600;
+    line-height: 22px;
+    font-size: 18px;
+}
+
+.header__box-btn{
+    background-color: #19191C;
+    color: #EFEFF2;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 12px 37px 12px 37px;
+}
+
+/* SECTION OFFER */
+.offer {
+    padding-top: 50px;
+}
+.offer__container {
+    justify-content: space-between;
+}
+.offer-content {
+    width: 648px;
+}
+
+.offer__title {
+    font-size: 58px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+.offer__description {
+    margin-bottom: 40px;
+}
+.offer__button {
+    background-color: #504DEE;
+    padding: 16px 37px;
+    color:#FBFBFC;
+    font-weight: 700;
+    line-height: 22px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 80px;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: #19191C;
+    padding: 36px 0;
+
+}
+.footer__container {
+    color: #EFEFF2;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.footer__address {
+    flex-direction: column;
+}
+
+.footer__logo {
+    font-weight: 800;
+    line-height: 22px;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.footer__link-email {
+    margin-bottom: 15px;
+}
+
+.footer__link-email,
+.footer__link-number {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+}
+.sitemap__title {
+    font-weight: 600;
+    line-height: 22px;
+    margin-bottom: 30px;
+    color: #FBFBFC
+}
+
+.sitemap__list {
+    line-height: 28px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.copyright {
+    color: #6D6D77;
+    justify-content: center;
+    gap: 20px;
+}
